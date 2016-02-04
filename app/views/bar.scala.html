@@ -1,0 +1,15 @@
+@()(content: Html)
+
+<div class="center-block col-md-6" style="float: none">
+  <form action="@routes.Application.addMessage()" method="post">
+    <div class="input-group">
+      <input name="tweet" type="text" class="form-control input-lg" id="inputlg">
+      <span class="btn input-group-addon input-lg">
+        <i class="glyphicon glyphicon-inbox"></i>
+      </span>
+    </div>
+  </form>
+</div>
+
+@content
+

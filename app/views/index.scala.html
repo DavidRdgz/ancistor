@@ -1,0 +1,14 @@
+@(message: String)
+
+@main("Ancistor") {
+
+    <div style="width:500px;height:50px;border"></div>
+
+    @bar(){
+
+        <div style="width:500px ; height:50px ; border"></div>
+
+        <script src="@routes.Assets.versioned("javascripts/messages.js")"></script>
+        <div id="messages" class="center-block col-md-6" style="float: none ; padding: 10px"></div>
+    }
+}
