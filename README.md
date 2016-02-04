@@ -16,3 +16,7 @@ To get the application running simply
 Then `cd ancistor` and run
 
     ./activator run
+
+Open your browser and go to the url `localhost:9000`
+
+And start adding messages.
